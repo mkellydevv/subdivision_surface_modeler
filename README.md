@@ -2,14 +2,7 @@
 
 __Summary :__
 
-This program displays a mesh object that can manipulated in various ways.  The main 
-function of this program is to use Catmull-Clark subdivision to smooth out a mesh 
-consisting of quadrilateral faces.  The mesh is stored in a pseudo Winged-Edge 
-representation where each face, edge, and vertex points to the faces, edges, and 
-vertices that it consists of or belongs to.  Users may generate a random heightfield 
-using the input fields in the top right or select a model from the dropdown menu.  
-Individual vertices may be selected and manipulated with the input fields in the middle 
-right of the window.  
+In this program, a user can display, manipulate, and refine polygonal meshes.  The primary function demonstrated in this program is a smoothing algorithm based on the Catmull-Clark subdivision technique as it applies to quadrilateral faces.  Meshes are stored in a pseudo winged edge representation where each face, edge, and vertex points to the faces, edges, and vertices that it constitutes.  Users may generate a random heightfield or choose prefabricated polyhedral objects from the dropdown menu.  Individual vertices can be further manipulated using the available controls. 
 
 __Libraries & Technologies Used :__
 * FLTK - Fast Light Toolkit is a cross-platform C++ GUI toolkit.
